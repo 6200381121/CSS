@@ -1,14 +1,114 @@
-h1{
-    font-family: League spartan ;
-    
-    color: #ffa511;
-    text-align: center;
-    background-color: aliceblue;
-    text: size 55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5x;
-    text-decoration: teal double underline;
-    text-transform: uppercase;
+h3{
+   background-color: darksalmon !important;
+}
 
+h1{
+    color: brown;
+}
+
+#login{
+    color:blue;
+    background-color: rgb(214, 223, 217);
+}
+#Singup{
+    background-color: rgb(23, 106, 214);
+}
+
+/* button{
+    color:blue;
+    background-color: rgb(255, 153, 0);
+} */
+ .upvote{
+    color: rgb(176, 72, 94);
+    background-color: darkorange;
+ }
+
+ /* Descentant selector */
+ .post a{
+    color: rgb(3, 150, 13);
+    background-color: rgb(205, 104, 89);
+ }
+ nav ul li{
+    color: rgb(0, 139, 116);
+ }
+
+ p+ h3{
+    text-decoration: underline;
+    color: blue;
+ }
+
+ .upvote+ button{
+    background-color: deeppink;
+    color: black;
+ }
+
+ div > input{
+    background-color: cadetblue;
+ }
+
+ input[type="text"]{
+    color: rgb(118, 13, 128);
+ }
+  
+ input[type="password"]{
+    color: rgb(206, 113, 0);
+ }
+ input[type]{
+    background-color: darkgrey;
+ }
+ /* div[id="myid"] p{
+   color: blueviolet;
+ } */
+  button{
+   color: aqua;
+   background-color: rgb(6, 8, 3);
+  }
+
+ #myId p {
+   color-scheme: red;
+ }
+
+ button:hover{
+   background-color: rgb(144, 184, 128);
+   color: rgb(38, 151, 49);
+ }
+
+ h3:hover{
+   text-decoration:overline;
+ }
+
+ button:active{
+   background-color:black ;
+   color: rgb(91, 25, 142);
+ }
+
+
+ p:active{
+   font-weight: bold;
+   color:rgb(114, 26, 26)
+ }
+
+ input[type="radio"]:checked+label{
+   color: brown;
+   font-weight: bolder;
+ }
+
+ h1::first-letter{
+   color: coral;
+ }
+
+p::first-line{
+   color: blue;
+   
+}
+
+p::selection{
+   background-color: aqua;
+}
+
+h3{
+   background-color: blue;
+}
+h3{
+   background-color: chartreuse;
 }
