@@ -1,0 +1,24 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+
+}
+
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    /* padding-bottom: 65px; */
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: brown;
+}
+#yellow{
+    background-color: gold;
+}
+#green{
+    background-color: green;
+}
